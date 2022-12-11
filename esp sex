@@ -1,0 +1,41 @@
+-- Library
+local esp, esp_renderstep, framework = loadstring(game:HttpGet("https://raw.githubusercontent.com/caIIings/Librarys/main/ESP/NoMercy.lua"))();
+
+local Players = game:GetService('Players');
+
+for _, Player in pairs(Players:GetPlayers()) do
+    if Player == Players.LocalPlayer then continue; end;
+    esp:Player(Player);
+end;
+
+Players.PlayerAdded:Connect(function(Player)
+    esp:Player(Player);
+end);
+
+Players.PlayerAdded:Connect(function(Player)
+    local obj = esp:GetObject(Player)
+    if obj then
+        obj:Destroy();
+    end;
+end);
+
+esp.Settings.Enabled = true;
+esp.Settings.Maximal_Distance = 1000;
+esp.Settings.Object_Maximal_Distance = 500;
+
+esp.Settings.Box.Enabled = true;
+esp.Settings.Box_Outline.Enabled = true;
+
+esp.Settings.Healthbar.Enabled = true;
+
+esp.Settings.Health.Enabled = true;
+esp.Settings.Health.Position = "Left";
+
+esp.Settings.Distance.Enabled = true;
+esp.Settings.Distance.Position = "Bottom";
+
+esp.Settings.Tool.Enabled = true;
+esp.Settings.Tool.Position = "Bottom";
+
+esp.Settings.Name.Enabled = true;
+esp.Settings.Name.Position = "Top";
