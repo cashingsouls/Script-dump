@@ -76,7 +76,7 @@ function library:CreateWindow(name, version, icon)
 
 	TitleUnderline.Name = "TitleUnderline"
 	TitleUnderline.Parent = TitleBar
-	TitleUnderline.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+	TitleUnderline.BackgroundColor3 = Color3.fromRGB(91, 0, 156)
 	TitleUnderline.BorderSizePixel = 0
 	TitleUnderline.Position = UDim2.new(0, 0, 1, 0)
 	TitleUnderline.Size = UDim2.new(1, 0, 0, 1)
