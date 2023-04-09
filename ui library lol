@@ -264,7 +264,7 @@ function library:CreateWindow(name, version, icon)
 
 		Indicator.Name = "Indicator"
 		Indicator.Parent = Tabs
-		Indicator.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+		Indicator.BackgroundColor3 = Color3.fromRGB(91, 0, 156)
 		Indicator.BorderSizePixel = 0
 		Indicator.BackgroundTransparency = 1
 		Indicator.Position = UDim2.new(0, -14, 0, 4)
@@ -304,7 +304,7 @@ function library:CreateWindow(name, version, icon)
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
 			Page.ScrollBarThickness = 5
-			Page.ScrollBarImageColor3 = Color3.fromRGB(135, 255, 135)
+			Page.ScrollBarImageColor3 = Color3.fromRGB(91, 0, 156)
 			Page.AutomaticCanvasSize = "Y"
 			Page.Visible = false
 
