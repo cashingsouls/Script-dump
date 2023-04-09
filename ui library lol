@@ -337,11 +337,11 @@ function library:CreateWindow(name, version, icon)
 			SearchIcon.Position = UDim2.new(0, 6, 0, 6)
 			SearchIcon.Size = UDim2.new(0, 18, 0, 18)
 			SearchIcon.Image = "rbxassetid://10045418551"
-			SearchIcon.ImageColor3 = Color3.fromRGB(135, 255, 135)
+			SearchIcon.ImageColor3 = Color3.fromRGB(91, 0, 156)
 
 			Bar_3.Name = "Bar"
 			Bar_3.Parent = SearchBar
-			Bar_3.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+			Bar_3.BackgroundColor3 = Color3.fromRGB(91, 0, 156)
 			Bar_3.Position = UDim2.new(0, 30, 0, 10)
 			Bar_3.Size = UDim2.new(0, 1, 1, -20)
 
